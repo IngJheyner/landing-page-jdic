@@ -131,8 +131,6 @@
                     </div>
 
                     <p class="flex flex-col items-center">
-                        <img src="../assets/img/Firma.png" alt="Firma de Jheyner David Ibagon Cuenca"
-                        class="w-[150px] h-[100px] object-cover object-center">
                         <span class="block">📞 +57 320 848 0413</span>
                         <span class="block">📧 david-ibagon@hotmail.com || david.ibagon@gmail.com</span>
                         <span class="block">📍 La Plata Huila, Colombia</span>
@@ -141,7 +139,7 @@
             </div>
         </div>
 
-        <div class="skills px-[8rem]">
+        <div class="skills md:px-[8rem]">
             <h1 class="heading mb-8">Habilida<span class="font-atomic">des</span></h1>
 
             <div class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] mb-10 ">

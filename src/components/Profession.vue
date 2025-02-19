@@ -3,7 +3,7 @@
     <div class="profession-container
         absolute
         top-1/2
-
+        -z-1
         right-0
 
         left-0
