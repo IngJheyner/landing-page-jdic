@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: Atomic;
+    font-display: swap;
+    src: url("/fonts/atomic.woff2") format("woff2");
+}

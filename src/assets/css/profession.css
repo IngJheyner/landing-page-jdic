@@ -1,0 +1,65 @@
+.profession-container {
+
+    .profession-box {
+
+        animation: professionRotate 13s ease-out infinite;
+
+        @media (min-width: 320px) and (max-width: 389px) {
+            @apply top-[calc(100vw--15rem)];
+        }
+
+        .profession{
+            @apply min-w-[180px] lg:min-w-[154px];
+            h3{
+                max-width: 154px;
+                text-align: center;
+            }
+        }
+
+        .profession:nth-child(1){
+
+            @apply [transform:rotate(-90deg)_translate(-86px,-250px)] sm:[transform:rotate(-90deg)_translate(-90px,-252px)] lg:rotate-[calc(360deg/4*var(--i))];
+
+        }
+
+        .profession:nth-child(2){
+
+            @apply [transform:rotate(0deg)_translate(5px,-335px)] sm:[transform:rotate(0deg)_translate(0,-335px)] lg:rotate-[calc(360deg/4*var(--i))] pb-[20px];
+
+        }
+
+        .profession:nth-child(3){
+
+            @apply [transform:rotate(90deg)_translate(-84px,-430px)] sm:[transform:rotate(90deg)_translate(-90px,-432px)] lg:rotate-[calc(360deg/4*var(--i))];
+
+        }
+
+        .profession:nth-child(4){
+
+            @apply [transform:rotate(180deg)_translate(-175px,-335px)] sm:[transform:rotate(180deg)_translate(-180px,-335px)] lg:rotate-[calc(360deg/4*var(--i))] pb-[20px];
+
+        }
+    }
+}
+
+@keyframes professionRotate {
+    0%, 20% {
+        transform: rotate(0deg);
+    }
+
+    25%, 45% {
+        transform: rotate(-90deg);
+    }
+
+    50%, 70% {
+        transform: rotate(-180deg);
+    }
+
+    75%, 95% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}

@@ -1,0 +1,31 @@
+.navbar{
+
+    &.open{
+        @apply block;
+    }
+
+    a.active::before{
+        @apply content-[''] absolute left-0 w-full h-[2px] bg-white bottom-[-6px];
+    }
+}
+
+header.sticky{
+
+    @apply bg-white shadow-[0_.1rem_1rem_rgba(0,0,0,.2)];
+
+    .navbar a{
+        @apply text-color-text;
+
+        &:active{
+            @apply text-color-text;
+        }
+
+        &::before{
+            @apply bg-main-color opacity-[.7]
+        }
+    }
+
+    .toggle-icon {
+        @apply text-color-text opacity-[.9]
+    }
+}

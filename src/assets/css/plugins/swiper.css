@@ -1,0 +1,16 @@
+.swiper-slide{
+    @apply p-[0_0_5rem] lg:p-[0_7rem_5rem]
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    @apply text-main-color hidden lg:block;
+}
+
+.swiper-pagination-bullet{
+    @apply text-main-color;
+}
+
+.swiper-pagination-bullet-active{
+    @apply bg-main-color;
+}

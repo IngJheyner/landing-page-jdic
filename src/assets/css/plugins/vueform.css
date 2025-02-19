@@ -1,0 +1,14 @@
+:root, :before, :after, * {
+    --vf-primary: #00004b;
+    --vf-success: #00abf0;
+    --vf-danger: #de1c60;
+    --vf-ring-color: #00abf0;
+    /* --vf-border-color-input: #00abf0; */
+}
+
+form {
+    zoom: 200%;
+    input {
+        @apply text-[1.6rem] w-full p-[1.5rem] text-color-text rounded-[.8rem] shadow-[0_.1rem_.5rem_theme(colors.shadow-color)]
+    }
+}

@@ -1,0 +1,38 @@
+/* Tailwind CSS */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import 'boxicons/css/boxicons.min.css';
+
+/* Tipografia */
+@import "assets/css/typography.css";
+
+/* Estilos */
+@import "assets/css/navbar.css";
+@import "assets/css/bottom.css";
+@import "assets/css/profession.css";
+@import "assets/css/portfolio.css";
+@import "assets/css/plugins/vueform.css";
+
+/* Globals */
+html {
+    @apply text-[50%] sm:text-[55%] xl:text-[62.5%] overflow-x-hidden;
+}
+
+section {
+    @apply xl:min-h-[100vh];
+}
+
+.animate-infinite-scroll {
+    animation: infinite-scroll 60s linear infinite;
+}
+
+@keyframes infinite-scroll {
+    0% {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-80%)
+    }
+}

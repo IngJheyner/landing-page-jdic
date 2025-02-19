@@ -1,0 +1,7 @@
+.btn{
+    @apply inline-block p-[12px_28px] bg-main-color rounded-[6px] shadow-[0_2px_5px_rgba(0,0,0,.2)] text-[16px] text-white tracking-[1px] no-underline font-semibold duration-[.5s] ease-in-out border-solid border-[2px] border-transparent;
+
+    &:hover{
+        @apply bg-transparent text-main-color border-main-color;
+    }
+}
